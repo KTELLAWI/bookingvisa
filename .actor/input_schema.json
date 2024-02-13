@@ -1,0 +1,27 @@
+{
+    "title": "Scrape data from Apollo.io",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "apollo_username": {
+            "title": "Apollo Email 📪",
+            "type": "string",
+            "description": "Your Apollo Email",
+            "editor": "textfield"
+        },
+        "apollo_password": {
+            "title": "Apollo Password 🔒",
+            "type": "string",
+            "description": "Your Apollo Password",
+            "editor": "textfield",
+            "isSecret": true
+        },
+        "list_url": {
+            "title": "List URL from Apollo 📜",
+            "type": "string",
+            "description": "The URL to navigate to after login.",
+            "editor": "textfield"
+        }
+    },
+    "required": ["apollo_username", "apollo_password", "list_url"]
+}
