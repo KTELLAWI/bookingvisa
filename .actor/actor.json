@@ -1,8 +1,8 @@
 {
     "actorSpecification": 1,
-    "name": "apollo-easy-scrape-34",
-    "title": "Project Puppeteer Crawler JavaScript",
-    "description": "Crawlee and Puppeteer project in JavaScript.",
+    "name": "visabooking",
+    "title": "visabooking",
+    "description": "visaybooking.",
     "version": "0.0",
     "meta": {
         "templateId": "js-crawlee-puppeteer-chrome"
